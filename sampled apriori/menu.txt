@@ -1,0 +1,22 @@
+===========================================================================
+ (a) List ALL discovered rules			   [format: a]
+
+ (b) List all rules containing a BAG of movies     [format:
+ in their <ITEMSET|HYPOTHESIS|CONCLUSION>              b,<i,h,c>,<comma-sep. movie IDs>]
+
+ (c) COMPARE rules with <CONFIDENCE,LIFT>          [format: c]
+
+ (h) Print the HISTOGRAM of <CONFIDENCE|LIFT >     [format: h,<c,l >]
+
+ (m) Show details of a MOVIE 			   [format: m,<movie ID>]
+
+ (r) Show a particular RULE 			   [format: r,<rule ID>]
+
+ (s) SORT rules by increasing <CONFIDENCE|LIFT >   [format: s,<c,l >]
+
+ (v) VISUALIZATION of association rules            [format: v,<draw_choice:
+ 						       (sorted by lift) [c(ircular),r(andom),s(pring)]>,
+ 							<num of rules to show>]
+
+ (e) EXIT				           [format: e]
+===========================================================================
